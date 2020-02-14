@@ -13,7 +13,7 @@ const toggleMode = e => {
       <header>
           <h1>Players</h1>
           <div>
-              <button onClick={toggleMode}>Dark Mode !</button>
+              <button data-testid='dark-mode-toggle' onClick={toggleMode}>Dark Mode !</button>
           </div>
       </header>
   )
